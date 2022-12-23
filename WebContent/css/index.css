@@ -1,0 +1,29 @@
+@import url(common/reset.css);
+@import url(common/header.css);
+@import url(common/footer.css);
+/*index*/
+
+.container{
+	width: 100%;
+	background-color: #bdffbd;
+	background: url(../images/test1.jpg) no-repeat 50%/cover;
+}
+
+.container .index{
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	padding: 20Px 0;
+	box-sizing: border-box;
+}
+
+.container .index .index-con{
+	width: 1200px;
+	height: 600px;
+	border: 0px solid #000000;
+	box-sizing: border-box;
+	background-color: #ffffff;
+	text-align: center;
+	line-height: 600px;
+	font-size: 50px;
+}

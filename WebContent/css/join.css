@@ -1,0 +1,79 @@
+@import url(common/reset.css);
+@import url(common/header.css);
+@import url(common/footer.css);
+/*join*/
+
+.container{
+	width: 100%;
+	background-color: #bdffbd;
+	background: url(../images/test1.jpg) no-repeat 50%/cover;
+}
+
+.container .join{
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	padding: 20Px 0;
+	box-sizing: border-box;
+}
+
+.container .join .join-con{
+	width: 1200px;
+	height: auto;
+	border: 0px solid #000000;
+	box-sizing: border-box;
+	/* background-color: #ffffff; */
+	display: flex;
+	justify-content: center;
+}
+
+.container .join .join-con form{
+	width: 450px;
+	border: 0px solid #000000;
+	box-sizing: border-box;
+	background-color: #ffffff;
+	padding: 20px;
+	
+}
+
+/*테이블 작업하면 무조건 작성*/
+table,th,td{
+  border: 1px solid #cccccc;
+  border-collapse: collapse;
+}
+
+
+
+.container .join .join-con table{
+ width: 100%;
+}
+
+.container .join .join-con table tr th{
+  background-color: black;
+  color: white;
+  padding: 20px 0;
+  box-sizing: border-box;
+  font-size: 30px;
+ }
+
+.container .join .join-con table tr td{
+border: 1px solid rgb(165, 160, 160);
+padding: 10px 20px;
+box-sizing: border-box;
+ }
+
+.container .join .join-con table tr:nth-child(8) td textarea{
+width: 100%;
+resize: none;
+ }
+
+ .container .join .join-con table tr.lastTr td{
+  width: 100%;
+  background-color: #555555;
+  text-align: center;
+   }
+
+.container .join .join-con table tr.lastTr td input{
+    width: 100px;
+    padding: 5px 10px;
+}
